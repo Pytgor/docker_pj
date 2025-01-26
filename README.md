@@ -1,6 +1,6 @@
  # Project Overview
 
-This project is a simple web server using Node.js and NGINX. In this project, NGINX is used as a reverse proxy, forwarding all traffic to 3 instances of the same web application created using Docker Compose. The load balancing algorithm used is **Least Connections**.
+This project is a simple web server using Node.js and NGINX. In this project, NGINX is used as a reverse proxy, forwarding all traffic to 3 instances of the same web application created using Docker Compose. The load balancing algorithm used is **Least Connections** which "Distributes the load to the server with the fewest active requests at the moment."
 
 ## Requirements
 
