@@ -6,6 +6,8 @@ This project is a simple web server using Node.js and NGINX. In this project, NG
 
 - **NGINX** (installed on the host machine)
 - **Docker** and **Docker Compose**
+- **Create_SSL_key** sudo openssl req -x509 -newkey rsa:4096 -keyout nginx.key -out nginx.crt -days 365
+
 
 ## How to Use
 
