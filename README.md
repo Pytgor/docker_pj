@@ -25,3 +25,6 @@ Run the following command in the project directory to install the necessary depe
 
 ```bash
 npm install
+
+
+### 3. Copy the nginx.conf file into your host machine
