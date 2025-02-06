@@ -28,5 +28,5 @@ npm install
 
 ### 3. Copy the nginx.conf file into your host machine:
 
-You can run cp /docker_projects/nginx.conf /etc/nginx/nginx.conf or if you have the original copy and want to create a backup of it 
+You can run '''cp /docker_projects/nginx.conf /etc/nginx/nginx.conf or if you have the original copy and want to create a backup of it 
 move it to a different location in case you need it back
