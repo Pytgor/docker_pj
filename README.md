@@ -23,8 +23,10 @@ e- Now test if SSL is working, just in case SSL is same as https (run this https
 ### 2. Install Dependencies
 Run the following command in the project directory to install the necessary dependencies:
 
-```bash
 npm install
 
 
-### 3. Copy the nginx.conf file into your host machine
+### 3. Copy the nginx.conf file into your host machine:
+
+You can run cp /docker_projects/nginx.conf /etc/nginx/nginx.conf or if you have the original copy and want to create a backup of it 
+move it to a different location in case you need it back
